@@ -1,9 +1,9 @@
 const Discord = require("discord.js");
 
-const bot = new Discord.Client({ disableEveryone: true });
+const bot = new Discord.Client();
 
 const prefix = "/";
-bot.on("message", async message => {
+bot.on("message",  message => {
     let user = message.mentions.users.first();
     if (!message.author.bot) {
         let msg = message.content.split(" ");
@@ -36,5 +36,5 @@ bot.on("message", async message => {
     }
 
 
-bot.login(process.env.BOT_TOKEN);
+bot.lbot.login('MzI3ODkzNzY2MjcyOTc0ODQ4.DM_bnw.yhKCJAKReFxoO1pbWYxgbJutbKg');
 
