@@ -1,8 +1,7 @@
 const Discord = require("discord.js");
-
 const bot = new Discord.Client();
-
 const prefix = "/";
+
 bot.on("message",  message => {
     let user = message.mentions.users.first();
     if (!message.author.bot) {
@@ -35,6 +34,5 @@ bot.on("message",  message => {
         }
     }
 
-
-bot.login('MzI3ODkzNzY2MjcyOTc0ODQ4.DM_bnw.yhKCJAKReFxoO1pbWYxgbJutbKg');
+client.login(process.env.BOT_TOKEN);
 
