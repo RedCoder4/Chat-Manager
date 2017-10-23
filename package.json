@@ -1,0 +1,15 @@
+{
+  "name": "chat",
+  "version": "0.0.1",
+  "description": "Chat Bot",
+  "main": "bot.js",
+  "scripts": {
+    "start': "node bot.js"
+  },
+  "author": "RosenDev",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.2.1"
+    
+  }
+}
