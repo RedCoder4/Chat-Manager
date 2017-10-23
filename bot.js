@@ -1,8 +1,8 @@
 const Discord = require("discord.js");
 const botSettings = require("./settings.json");
 const bot = new Discord.Client({ disableEveryone: true });
-const token = botSettings.token;
-const prefix = botSettings.prefix;
+
+const prefix = "/";
 bot.on("message", async message => {
     let user = message.mentions.users.first();
     if (!message.author.bot) {
