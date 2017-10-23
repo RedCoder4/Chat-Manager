@@ -36,5 +36,5 @@ bot.on("message",  message => {
     }
 
 
-bot.lbot.login('MzI3ODkzNzY2MjcyOTc0ODQ4.DM_bnw.yhKCJAKReFxoO1pbWYxgbJutbKg');
+bot.login('MzI3ODkzNzY2MjcyOTc0ODQ4.DM_bnw.yhKCJAKReFxoO1pbWYxgbJutbKg');
 
